@@ -16,7 +16,7 @@
         position: relative;
         background-color: #2D3233;
         width: 300px;
-        height: 540px;
+        height: 530px;
         margin: 100px auto;
         padding: 10px;
         border: 0.5px solid rgba(0, 0, 0, 0.5);
@@ -42,37 +42,57 @@
     }
 
     div#acesso {
-        background-color: #4fcde0;
+        background-color: #38a9bb;
         width: 90%;
         height: 60px;
         margin: 10px auto;
-        padding: 10px;
+        padding: 0px 10px 10px 10px;
         text-align: center;        
         border-radius: 10px;
     }
 
     div#acesso > h2 {
-        font-size: 1em;
-        padding: 3px;
+        font-size: 1.2em;
+        padding: 0px;
     }
 
     div#acesso > input[type=submit] {
         width: 50%;
         height: 25px;
         margin-top: 5px;
+        border-radius: 5px;
+        border-style: none;
     }
 
     div#criar {
-        background-image: linear-gradient(to bottom, #11C3E0, #293536);
+        background-image: linear-gradient(to bottom, #293536, #a7e3ec);
         width: 90%;
-        height: 150px;
+        height: 160px;
         margin: 10px auto;
-        padding: 10px;
+        padding: 0px 10px 10px 10px;
         border-radius: 10px;
     }
 
     div#criar > h1 {
         text-align: center;
+        color: white;
+    }
+
+    div#criar input[type] {
+        display: block;
+        width: 80%;
+        margin: 3px auto;
+        padding: 3px;
+        border-radius: 5px;
+        border-style: none;
+    }
+
+    div#criar input[type=submit] {
+        display: block;
+        width: 50%;
+        height: 25px;
+        margin: 2px auto;
+        padding: 2px;
     }
 }
 
