@@ -1,11 +1,78 @@
 @charset "UTF-8";
 
 * {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 0px;
     padding: 0px;
 }
 
-body {
-    background-color: #01a7fa95;
+@media screen and (min-width: 600px) {
+    body {
+        background-image: linear-gradient(to right, #3B3834, #B6762D);
+        /*height: 100vh;*/
+    }
+    
+    main {    
+        position: relative;
+        background-color: #2D3233;
+        width: 300px;
+        height: 540px;
+        margin: 100px auto;
+        padding: 10px;
+        border: 0.5px solid rgba(0, 0, 0, 0.5);
+        border-radius: 15px;
+    }
+
+    section#login > h1 {
+        color: white;
+        text-align: center;
+        padding: 5px;
+    }
+
+    div#imagem {
+        /*position: absolute;*/
+        background-image: url(../imagens/pexels-fotios-photos-1777023.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 90%;
+        height: 200px;
+        margin: auto;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    div#acesso {
+        background-color: #4fcde0;
+        width: 90%;
+        height: 60px;
+        margin: 10px auto;
+        padding: 10px;
+        text-align: center;        
+        border-radius: 10px;
+    }
+
+    div#acesso > h2 {
+        font-size: 1em;
+        padding: 3px;
+    }
+
+    div#acesso > input[type=submit] {
+        width: 50%;
+        height: 25px;
+        margin-top: 5px;
+    }
+
+    div#criar {
+        background-image: linear-gradient(to bottom, #11C3E0, #293536);
+        width: 90%;
+        height: 150px;
+        margin: 10px auto;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    div#criar > h1 {
+        text-align: center;
+    }
 }
+
