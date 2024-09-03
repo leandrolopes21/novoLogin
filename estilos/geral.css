@@ -62,6 +62,12 @@
         margin-top: 5px;
         border-radius: 5px;
         border-style: none;
+        cursor: pointer;
+    }
+
+    div#acesso > input[type=submit]:hover {
+        background-color: #614f37;
+        color: white;
     }
 
     div#criar {
@@ -93,6 +99,12 @@
         height: 25px;
         margin: 2px auto;
         padding: 2px;
+        cursor: pointer;
+    }
+
+    div#criar input[type=submit]:hover {
+        background-color: #614f37;
+        color: white;
     }
 }
 
